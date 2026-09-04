@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09060f">
+  <meta name="description" content="Una sorpresa de cumpleaños hecha especialmente para Holley.">
+  <title>Feliz cumpleaños, mi bebé Holley ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <div class="moon"></div>
+    <div class="stars" id="stars"></div>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+  </div>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="eyebrow">♡ Una sorpresa hecha especialmente para ti ♡</div>
+
+      <div class="characters" aria-label="Pinkie Pie, Pompompurin y Twilight Sparkle">
+        <figure class="character character-left">
+          <img src="assets/pinkie-pie.png" alt="Pinkie Pie" loading="eager"
+               data-remote="https://upload.wikimedia.org/wikipedia/commons/6/6d/Pinkie_Pie_character.png">
+        </figure>
+        <figure class="character character-center">
+          <img src="assets/pompompurin.png" alt="Pompompurin" loading="eager"
+               data-remote="https://w7.pngwing.com/pngs/814/744/png-transparent-pompompurin-cute.png">
+        </figure>
+        <figure class="character character-right">
+          <img src="assets/twilight-sparkle.png" alt="Twilight Sparkle" loading="eager"
+               data-remote="https://upload.wikimedia.org/wikipedia/commons/4/46/Twilight_Sparkle_character.png">
+        </figure>
+      </div>
+
+      <p class="for-label">PARA MI PRINCESITA</p>
+      <h1>Feliz cumpleaños,<br><span>mi bebé Holley</span> <b>❤️</b></h1>
+      <p class="subtitle">Hoy celebramos tus 22 añitos <span>✨</span></p>
+
+      <button class="primary-btn" id="openLetter" type="button">
+        <span>Descubrir mi mensaje</span><span aria-hidden="true">💌</span>
+      </button>
+      <p class="hint">Hay un poquito de mi corazón esperándote aquí.</p>
+    </section>
+
+    <section class="letter-section" id="carta" aria-hidden="true">
+      <div class="letter-wrap">
+        <div class="letter-card" id="letterCard">
+          <div class="card-shine"></div>
+          <div class="letter-top">Para la niña que hace mis días más bonitos</div>
+          <div class="ornament">✦ &nbsp; ♡ &nbsp; ✦</div>
+
+          <div class="letter-copy">
+            <p class="greeting">Felicidades por tus 22 añitos, mi bebé Holley ❤️</p>
+            <p>Soy muy feliz de que cumplas un añito más de vida. Gracias por ser mi pareja, por estar a mi lado y por compartir tantos momentos conmigo.</p>
+            <p>Deseo que este nuevo añito esté lleno de cosas bonitas, sonrisas y momentos que podamos guardar juntos.</p>
+            <p class="closing">Te amo muchísimo, mi princesita. 🖤❤️</p>
+          </div>
+
+          <div class="cake-area" aria-label="Pastel de cumpleaños con vela y número 22">
+            <div class="cake">
+              <div class="candle"><span class="flame"></span></div>
+              <div class="cake-number">22</div>
+              <div class="cake-top"></div>
+              <div class="cake-body"></div>
+              <div class="cake-plate"></div>
+            </div>
+          </div>
+
+          <div class="letter-actions">
+            <button class="secondary-btn" id="secretBtn" type="button">Tengo una última cosita para ti <span>✨</span></button>
+            <button class="music-btn" id="musicBtn" type="button" aria-label="Abrir la canción de cumpleaños en YouTube">▶ Escuchar la canción</button>
+          </div>
+
+          <div class="secret" id="secretMessage" role="status" aria-live="polite">
+            <span class="secret-heart">♥</span>
+            <p>Si pudiera elegir otra vez, te volvería a elegir a ti. ❤️</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>Para ti, mi princesita Holley ♡</footer>
+  </main>
+
+  <div class="confetti-layer" id="confetti" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
